@@ -17,6 +17,6 @@ def test_get_feature_type_polygon():
 
 def test_get_feature_type_none():
     expected = "None"
-    actual = fc.get_feature_type()
+    actual = fc.get_feature_type(6)
     assert expected == actual
 
