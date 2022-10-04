@@ -14,7 +14,7 @@ def get_countdown_as_text_using_while(start_value=10):
     countdown = []
     while start_value > -1:
       countdown.append(start_value)
-      start_value -= 1
+      start_value =  start_value - 1
 
 
 get_countdown_as_text_using_for()
