@@ -1,6 +1,6 @@
 def get_feature_type(feature_code):
     if feature_code == 1:
-        print("POINT")
+       print("POINT")
     if feature_code == 2:
         print("POLYLINE")
     if feature_code == 3:

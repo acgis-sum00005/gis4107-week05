@@ -2,7 +2,7 @@ import modvar as mod
 
 def test_mod_myvar_condition1():
     expected = 9
-    actual = mod.mod_myvar(5)
+    actual = mod.mod_myvar(1)
     assert expected == actual
 
 def test_mod_myvar_condition2():
