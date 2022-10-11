@@ -1,5 +1,5 @@
-rows = 1, 2, 3
-columns = "A, B, C"
+rows = 1, 2
+columns = "A, B"
 def create_cell_refs(columns, rows):
     for col in range(columns):
         for row in range(rows):
